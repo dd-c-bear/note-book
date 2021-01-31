@@ -1,7 +1,4 @@
-import os
-print('helloworld')
-x = int(input('a number'))
-if x == 3 :
-    print('yes')
-else :
-    print('No')
+y = 23
+g = 'world'
+print('hello%s' 'there are %d' % (g , y))
+print(f'hello{g} there are {y}')
