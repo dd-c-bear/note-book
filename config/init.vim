@@ -13,6 +13,7 @@
   "Some useful settings
   set smartindent
   set expandtab         "tab to spaces
+  set scrolloff=5
   set tabstop=2         "the width of a tab
   set relativenumber
   set shiftwidth=2      "the width for indent
@@ -168,7 +169,7 @@ let g:airline_section_x = '%{ScrollStatus()}'
 "fzf
 let g:fzf_preview_window = 'right:60%'
 let g:fzf_commits_log_options = '--graph --color=always --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
-map <leader>f :Rg<CR>
+map <leader> :FZF<CR>
 "for indentLine
 "indentLine
 let g:indentLine_char='┆'
